@@ -1,0 +1,422 @@
+2026-04-20 17:51:43 [INFO] main: Планировщик: каждые 60 мин. в торговые дни.
+2026-04-20 17:51:43 [INFO] main: ============================================================
+2026-04-20 17:51:43 [INFO] main: Запуск: 20.04.2026 17:51:43
+2026-04-20 17:51:43 [INFO] main: Порог ЛОНГ >= 5, ШОРТ <= -4
+2026-04-20 17:51:43 [INFO] main: ============================================================
+2026-04-20 17:51:43 [INFO] ideas_generator: ============================================================
+2026-04-20 17:51:43 [INFO] ideas_generator: Генерация идей: 20.04.2026 17:51
+2026-04-20 17:51:43 [INFO] ideas_generator: Тикеров: 18, потоков: 8
+2026-04-20 17:51:43 [INFO] ideas_generator: ============================================================
+2026-04-20 17:51:43 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:43 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:43 [INFO] market_regime: [M] Режим: 🟡 Боковик | IMOEX 2734.4 / EMA20 2763.7 | EMA slope -0.111% | 5d range 0.63% | Разрешено: ['ЛОНГ', 'ШОРТ']
+2026-04-20 17:51:43 [INFO] ideas_generator: [M] Рыночный режим: 🟡 Боковик
+2026-04-20 17:51:43 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:43 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/index/securities/IMOEX.json?iss.meta=off&iss.only=marketdata HTTP/1.1" 200 None
+2026-04-20 17:51:43 [INFO] ideas_generator: IMOEX: 2734 (+0.39%)
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/CBOM/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:44 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SBER.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/CBOM.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:45 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/CBOM/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/MTSS/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/GMKN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/MAGN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/NLMK/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/CBOM/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/ROSN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SBER/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/MTSS/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/GAZP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:46 [DEBUG] data_fetcher: [N] Стакан MTSS: пустой/не-JSON ответ
+2026-04-20 17:51:46 [INFO] ideas_generator:   MTSS: НЕЙТРАЛЬНО (RSI 44.7, тех: -1, новости: +0, таймфрейм: Недельный EMA20 падает (2, итого: -1)
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/MAGN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/GMKN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:46 [DEBUG] data_fetcher: [N] Стакан MAGN: пустой/не-JSON ответ
+2026-04-20 17:51:46 [INFO] ideas_generator:   MAGN: НЕЙТРАЛЬНО (RSI 43.6, тех: +0, новости: +2, таймфрейм: Недельный EMA20 падает (2, итого: +2)
+2026-04-20 17:51:46 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/NLMK/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан GMKN: пустой/не-JSON ответ
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/CBOM/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:47 [INFO] ideas_generator:   GMKN: НЕЙТРАЛЬНО (RSI 45.9, тех: +1, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +2)
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан NLMK: пустой/не-JSON ответ
+2026-04-20 17:51:47 [INFO] ideas_generator:   NLMK: ЛОНГ (RSI 30.9, тех: +5, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +6)
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан CBOM: пустой/не-JSON ответ
+2026-04-20 17:51:47 [INFO] ideas_generator:   CBOM: ЛОНГ (RSI 74.4, тех: +3, новости: +3, таймфрейм: Недельный EMA20 растёт (6, итого: +6)
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/ROSN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/GAZP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SBER/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан ROSN: пустой/не-JSON ответ
+2026-04-20 17:51:47 [INFO] ideas_generator:   ROSN: НЕЙТРАЛЬНО (RSI 35.7, тех: +0, новости: -1, таймфрейм: Недельный EMA20 падает (4, итого: -1)
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан GAZP: пустой/не-JSON ответ
+2026-04-20 17:51:47 [INFO] ideas_generator:   GAZP: НЕЙТРАЛЬНО (RSI 35.8, тех: +1, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +2)
+2026-04-20 17:51:47 [DEBUG] data_fetcher: [N] Стакан SBER: пустой/не-JSON ответ
+2026-04-20 17:51:47 [INFO] ideas_generator:   SBER: НЕЙТРАЛЬНО (RSI 64.8, тех: +0, новости: -2, таймфрейм: Недельный EMA20 растёт (3, итого: -2)
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/BELU/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/LENT/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NMTP/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [INFO] ideas_generator:   LENT: низкий объём (31,183)
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/FEES/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SIBN/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:47 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/BELU.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/FEES.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SIBN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NMTP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/TATN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NMTP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/BELU/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/FEES/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SIBN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:48 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/BELU/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/FEES/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/IRAO/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SNGSP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/NMTP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SIBN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/IRAO/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/TATN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/BELU/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан IRAO: пустой/не-JSON ответ
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/FEES/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SNGSP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [INFO] ideas_generator:   IRAO: НЕЙТРАЛЬНО (RSI 54.8, тех: +2, новости: +2, таймфрейм: Недельный EMA20 растёт (3, итого: +4)
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан BELU: пустой/не-JSON ответ
+2026-04-20 17:51:49 [INFO] ideas_generator:   BELU: ЛОНГ (RSI 33.1, тех: +4, новости: +1, таймфрейм: Недельный EMA20 падает (4, итого: +5)
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан SNGSP: пустой/не-JSON ответ
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан FEES: пустой/не-JSON ответ
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/NMTP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [INFO] ideas_generator:   SNGSP: НЕЙТРАЛЬНО (RSI 47.3, тех: +0, новости: -2, таймфрейм: Недельный EMA20 падает (4, итого: -2)
+2026-04-20 17:51:49 [INFO] ideas_generator:   FEES: НЕЙТРАЛЬНО (RSI 43.7, тех: -1, новости: +0, таймфрейм: Недельный EMA20 падает (0, итого: -1)
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SIBN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан NMTP: пустой/не-JSON ответ
+2026-04-20 17:51:49 [INFO] ideas_generator:   NMTP: НЕЙТРАЛЬНО (RSI 50.1, тех: +0, новости: +3, таймфрейм: Недельный EMA20 падает (8, итого: +3)
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан SIBN: пустой/не-JSON ответ
+2026-04-20 17:51:49 [INFO] ideas_generator:   SIBN: НЕЙТРАЛЬНО (RSI 41.1, тех: +0, новости: -2, таймфрейм: Недельный EMA20 падает (5, итого: -2)
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/TATN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] data_fetcher: [N] Стакан TATN: пустой/не-JSON ответ
+2026-04-20 17:51:49 [INFO] ideas_generator:   TATN: НЕЙТРАЛЬНО (RSI 32.5, тех: +0, новости: +0, таймфрейм: Недельный EMA20 падает (6, итого: +0)
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/PHOR/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 17:51:49 [INFO] ideas_generator:   PHOR: низкий объём (91,183)
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/AFLT/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 17:51:49 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 17:51:50 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/AFLT/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 17:51:50 [DEBUG] data_fetcher: [N] Стакан AFLT: пустой/не-JSON ответ
+2026-04-20 17:51:50 [INFO] ideas_generator:   AFLT: НЕЙТРАЛЬНО (RSI 51.5, тех: -1, новости: +3, таймфрейм: Недельный EMA20 падает (5, итого: +2)
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор banking: avg=+2.00, тикеров: 2
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор oil_gas: avg=-0.60, тикеров: 5
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор metals: avg=+3.33, тикеров: 3
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор telecom: avg=-1.00, тикеров: 1
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор utilities: avg=+1.50, тикеров: 2
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор transport: avg=+2.50, тикеров: 2
+2026-04-20 17:51:50 [INFO] ideas_generator: [P] Сектор retail: avg=+5.00, тикеров: 1
+2026-04-20 17:51:50 [INFO] ideas_generator:   [BT] BELU ЛОНГ отброшен (TICKER_SIGNAL_FILTER)
+2026-04-20 17:51:50 [INFO] ideas_generator: Итого: 1 лонгов, 0 шортов
+2026-04-20 17:51:50 [INFO] main: Результат: 1 лонгов, 0 шортов
+2026-04-20 17:51:50 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.telegram.org:443
+2026-04-20 17:51:50 [DEBUG] urllib3.connectionpool: https://api.telegram.org:443 "POST /bot8500173457:AAGNnlmtuS-AyqXIkqURM2GkNicjsOEQMXA/sendMessage HTTP/1.1" 200 820
+2026-04-20 17:51:50 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.telegram.org:443
+2026-04-20 17:51:51 [DEBUG] urllib3.connectionpool: https://api.telegram.org:443 "POST /bot8500173457:AAGNnlmtuS-AyqXIkqURM2GkNicjsOEQMXA/sendMessage HTTP/1.1" 200 5039
+2026-04-20 17:51:51 [INFO] notifier: Telegram: отправлено 1 сообщений
+2026-04-20 17:51:51 [INFO] main: Telegram: отправлено
+2026-04-20 17:51:51 [INFO] main: Цикл завершён за 8с
+2026-04-20 18:33:05 [INFO] main: Планировщик: каждые 60 мин. в торговые дни.
+2026-04-20 18:33:05 [INFO] main: ============================================================
+2026-04-20 18:33:05 [INFO] main: Запуск: 20.04.2026 18:33:05
+2026-04-20 18:33:05 [INFO] main: Порог ЛОНГ >= 5, ШОРТ <= -5
+2026-04-20 18:33:05 [INFO] main: ============================================================
+2026-04-20 18:33:05 [INFO] ideas_generator: ============================================================
+2026-04-20 18:33:05 [INFO] ideas_generator: Генерация идей: 20.04.2026 18:33
+2026-04-20 18:33:05 [INFO] ideas_generator: Тикеров: 18, потоков: 8
+2026-04-20 18:33:05 [INFO] ideas_generator: ============================================================
+2026-04-20 18:33:05 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:05 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/index/boards/SNDX/securities/IMOEX/candles.json?from=2026-02-19&till=2026-04-20&interval=24&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:05 [INFO] market_regime: [M] Режим: 🟡 Боковик | IMOEX 2747.4 / EMA20 2764.9 | EMA slope -0.066% | 5d range 0.86% | Разрешено: ['ЛОНГ', 'ШОРТ']
+2026-04-20 18:33:05 [INFO] ideas_generator: [M] Рыночный режим: 🟡 Боковик
+2026-04-20 18:33:05 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:05 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/index/securities/IMOEX.json?iss.meta=off&iss.only=marketdata HTTP/1.1" 200 None
+2026-04-20 18:33:05 [INFO] ideas_generator: IMOEX: 2747 (+0.86%)
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SBER.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/CBOM.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:06 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MTSS/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/MAGN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/CBOM/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/ROSN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GMKN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SBER/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NLMK/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/GAZP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/ROSN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SBER/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/CBOM/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/GAZP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/MAGN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/GMKN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/MTSS/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SBER/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/CBOM/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/ROSN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан SBER: пустой/не-JSON ответ
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/NLMK/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:07 [INFO] ideas_generator:   SBER: НЕЙТРАЛЬНО (RSI 64.7, тех: +2, новости: -2, таймфрейм: Недельный EMA20 растёт (3, итого: +0)
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан CBOM: пустой/не-JSON ответ
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/MAGN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/GMKN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [INFO] ideas_generator:   CBOM: ЛОНГ (RSI 74.3, тех: +4, новости: +3, таймфрейм: Недельный EMA20 растёт (6, итого: +7)
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан ROSN: пустой/не-JSON ответ
+2026-04-20 18:33:07 [INFO] ideas_generator:   ROSN: НЕЙТРАЛЬНО (RSI 35.8, тех: +0, новости: -1, таймфрейм: Недельный EMA20 падает (4, итого: -1)
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/GAZP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан MAGN: пустой/не-JSON ответ
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан GMKN: пустой/не-JSON ответ
+2026-04-20 18:33:07 [INFO] ideas_generator:   MAGN: НЕЙТРАЛЬНО (RSI 43.5, тех: +0, новости: +2, таймфрейм: Недельный EMA20 падает (2, итого: +2)
+2026-04-20 18:33:07 [INFO] ideas_generator:   GMKN: НЕЙТРАЛЬНО (RSI 45.8, тех: +1, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +2)
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан GAZP: пустой/не-JSON ответ
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/MTSS/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [INFO] ideas_generator:   GAZP: НЕЙТРАЛЬНО (RSI 35.8, тех: +1, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +2)
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан MTSS: пустой/не-JSON ответ
+2026-04-20 18:33:07 [INFO] ideas_generator:   MTSS: НЕЙТРАЛЬНО (RSI 44.3, тех: +2, новости: +0, таймфрейм: Недельный EMA20 растёт (2, итого: +2)
+2026-04-20 18:33:07 [INFO] ideas_generator:   LENT: низкий объём (31,183)
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/NLMK/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] data_fetcher: [N] Стакан NLMK: пустой/не-JSON ответ
+2026-04-20 18:33:07 [INFO] ideas_generator:   NLMK: ЛОНГ (RSI 30.8, тех: +5, новости: +1, таймфрейм: Недельный EMA20 падает (1, итого: +6)
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/BELU.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NMTP.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/TATN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SIBN.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:07 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/FEES.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT.json?iss.meta=off&iss.only=marketdata%2Csecurities HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/TATN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SIBN/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/IRAO/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/SNGSP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/NMTP/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/AFLT/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/BELU/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/TATN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/IRAO/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:08 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/boards/TQBR/securities/FEES/candles.json?from=2025-04-21&till=2026-04-20&interval=7&start=0 HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SIBN/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/SNGSP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/NMTP/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/BELU/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/TATN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан TATN: пустой/не-JSON ответ
+2026-04-20 18:33:09 [INFO] ideas_generator:   TATN: НЕЙТРАЛЬНО (RSI 32.7, тех: +0, новости: +0, таймфрейм: Недельный EMA20 падает (6, итого: +0)
+2026-04-20 18:33:09 [INFO] ideas_generator:   PHOR: низкий объём (91,183)
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/IRAO/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/AFLT/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан IRAO: пустой/не-JSON ответ
+2026-04-20 18:33:09 [INFO] ideas_generator:   IRAO: НЕЙТРАЛЬНО (RSI 54.7, тех: +2, новости: +2, таймфрейм: Недельный EMA20 растёт (3, итого: +4)
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SIBN/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/NMTP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан SIBN: пустой/не-JSON ответ
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан NMTP: пустой/не-JSON ответ
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/securities/FEES/dividends.json?iss.meta=off HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): iss.moex.com:443
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/BELU/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/SNGSP/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [INFO] ideas_generator:   SIBN: НЕЙТРАЛЬНО (RSI 41.0, тех: +0, новости: -2, таймфрейм: Недельный EMA20 падает (5, итого: -2)
+2026-04-20 18:33:09 [INFO] ideas_generator:   NMTP: НЕЙТРАЛЬНО (RSI 50.0, тех: +0, новости: +3, таймфрейм: Недельный EMA20 падает (8, итого: +3)
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан SNGSP: пустой/не-JSON ответ
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан BELU: пустой/не-JSON ответ
+2026-04-20 18:33:09 [INFO] ideas_generator:   SNGSP: НЕЙТРАЛЬНО (RSI 47.4, тех: +0, новости: -2, таймфрейм: Недельный EMA20 падает (4, итого: -2)
+2026-04-20 18:33:09 [INFO] ideas_generator:   BELU: ЛОНГ (RSI 33.2, тех: +4, новости: +1, таймфрейм: Недельный EMA20 падает (4, итого: +5)
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/AFLT/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан AFLT: пустой/не-JSON ответ
+2026-04-20 18:33:09 [INFO] ideas_generator:   AFLT: НЕЙТРАЛЬНО (RSI 51.4, тех: -1, новости: +3, таймфрейм: Недельный EMA20 падает (5, итого: +2)
+2026-04-20 18:33:09 [DEBUG] urllib3.connectionpool: https://iss.moex.com:443 "GET /iss/engines/stock/markets/shares/securities/FEES/orderbook.json?iss.meta=off&depth=20&securityboard=TQBR HTTP/1.1" 200 None
+2026-04-20 18:33:09 [DEBUG] data_fetcher: [N] Стакан FEES: пустой/не-JSON ответ
+2026-04-20 18:33:09 [INFO] ideas_generator:   FEES: НЕЙТРАЛЬНО (RSI 43.8, тех: -1, новости: +0, таймфрейм: Недельный EMA20 падает (0, итого: -1)
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор banking: avg=+3.50, тикеров: 2
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор oil_gas: avg=-0.60, тикеров: 5
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор metals: avg=+3.33, тикеров: 3
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор telecom: avg=+2.00, тикеров: 1
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор utilities: avg=+1.50, тикеров: 2
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор transport: avg=+2.50, тикеров: 2
+2026-04-20 18:33:09 [INFO] ideas_generator: [P] Сектор retail: avg=+5.00, тикеров: 1
+2026-04-20 18:33:09 [INFO] ideas_generator:   [BT] NLMK ЛОНГ отброшен (TICKER_SIGNAL_FILTER)
+2026-04-20 18:33:09 [INFO] ideas_generator:   [BT] BELU ЛОНГ отброшен (TICKER_SIGNAL_FILTER)
+2026-04-20 18:33:09 [INFO] ideas_generator: Итого: 0 лонгов, 0 шортов
+2026-04-20 18:33:09 [INFO] main: Результат: 0 лонгов, 0 шортов
+2026-04-20 18:33:09 [INFO] main: Нет перспективных идей.
+2026-04-20 18:33:09 [INFO] main: Цикл завершён за 4с
